@@ -1,0 +1,65 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+body {
+    width: auto;
+    padding: 60px;
+}
+.title h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+img {
+    display: flex;
+    width: 40%;
+
+}
+
+.dados {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.nome {
+    border-top: 20px;
+    border-bottom: 20px;
+}
+
+.print {
+    display: none;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.print h1 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.print h2 {
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.assinatura {
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media print {
+    .print {
+        display:block;
+    }
+    .dados {
+        display: none;
+    }
+}
